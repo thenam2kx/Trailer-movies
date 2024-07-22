@@ -8,7 +8,7 @@ function Banner() {
     <article className="w-full h-[700px] bg-cover bg-banner relative">
       <section className="absolute top-0 left-0 w-full h-full opacity-30 bg-[#2c3e50]"></section>
       <section className="absolute top-0 left-0 w-full h-full flex items-center justify-center space-x-[30px] px-4">
-        <article className="w-1/2">
+        <article className="w-1/2 px-10">
           <p className="text-white bg-gradient-to-r text-xl from-red-600 to-red-300 w-fit py-1 px-3 items-baseline">TV Show</p>
           <div className="flex flex-col space-y-4 mt-4">
             <h2 className="text-white font-bold text-4xl">Nghe nói em thích tôi</h2>
