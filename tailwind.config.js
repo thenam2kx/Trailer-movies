@@ -1,19 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
     extend: {
       fontFamily: {
-        roboto: ["Roboto", "sans-serif"]
+        roboto: ['Roboto', 'sans-serif']
       },
-      backgroundImage: {
-        'banner': 'url(./banner.png)'
-      }
-    },
+      backgroundImage: (theme) => ({
+        'banner': 'url(/src/assets/banner.png)'
+      })
+    }
   },
-  plugins: [],
+  plugins: []
 }
 

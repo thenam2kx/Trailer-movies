@@ -5,7 +5,7 @@ import playIcon from '../assets/play-button.png'
 
 function Banner() {
   return (
-    <article className="w-full h-[700px] bg-cover bg-banner relative">
+    <article className={'w-full h-[700px] bg-cover bg-banner relative'}>
       <section className="absolute top-0 left-0 w-full h-full opacity-30 bg-[#2c3e50]"></section>
       <section className="absolute top-0 left-0 w-full h-full flex items-center justify-center space-x-[30px] px-4">
         <article className="w-1/2 px-10">
